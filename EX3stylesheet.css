@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "monospace";
+    }
+
+#Skills {
+    margin-top: 50px;
+}
+
+input {
+    text-align: center;
+    padding: 5px;
+    border-radius:10px;
+    }
+
+
+
+.General{
+        text-align: center;
+    }
+.Additional {
+    text-align: center;
+    color: rgb(3, 48, 90);
+}
