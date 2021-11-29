@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="CV.js"></script>
     <meta charset="UTF-8">
-    <link href="EX3stylesheet.css" rel="stylesheet"/>
+    <link href="CV.css" rel="stylesheet"/>
     <title>Title</title>
 </head>
 <body>
 <h2>Hello world</h2>
 <form class="General">
-    <input type="text" id="Fname" name="Fname" placeholder="First name"><br><br>
+    <input type="text" id="Fname" name="Fname"  placeholder="First name"><br><br>
     <input type="text" id="Lname" name="Lname" placeholder="Last name"><br><br>
     <input type="email" id="Email" name="email" placeholder="Email"><br><br>
-    <input type="password" id="password" name="password" placeholder="Password"><br><br>
+    <input type="password" id="password" name="password" required minlength="8" maxlength="16" placeholder="Password"><br><br>
     <input type="date" id="BD" name="B-Day" placeholder="B-Day">
     <input type="submit" value="Submit">
 </form>
